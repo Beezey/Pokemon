@@ -1,0 +1,36 @@
+public class Joueur {
+
+    protected String nom;
+    protected Pokemon nbPokemon;
+    protected int pokemonKO;
+
+    public Joueur(String nom, Pokemon nbPokemon, int pokemonKO) {
+        this.nom = nom;
+        this.nbPokemon = nbPokemon;
+        this.pokemonKO = pokemonKO;
+    }
+
+    public String getNom() {
+        return nom;
+    }
+
+    public void setNom(String nom) {
+        this.nom = nom;
+    }
+
+    public Pokemon getNbPokemon() {
+        return nbPokemon;
+    }
+
+    public void setNbPokemon(Pokemon nbPokemon) {
+        this.nbPokemon = nbPokemon;
+    }
+
+    public int getPokemonKO() {
+        return pokemonKO;
+    }
+
+    public void setPokemonKO(int pokemonKO) {
+        this.pokemonKO = pokemonKO;
+    }
+}
