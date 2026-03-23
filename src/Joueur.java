@@ -4,7 +4,7 @@ public class Joueur {
     protected Pokemon[] pokemon = new Pokemon[6];
     protected int pokemonKO = 0;
 
-    protected int indexActif = 0; // ✅ AJOUT
+    protected int indexActif = 0;
 
     public Joueur(String nom) {
         this.nom = nom;
