@@ -4,6 +4,8 @@ public class Joueur {
     protected Pokemon[] pokemon = new Pokemon[6];
     protected int pokemonKO = 0;
 
+    protected int indexActif = 0; // ✅ AJOUT
+
     public Joueur(String nom) {
         this.nom = nom;
     }
@@ -22,5 +24,9 @@ public class Joueur {
 
     public void setPokemonKO(int pokemonKO) {
         this.pokemonKO = pokemonKO;
+    }
+
+    public Pokemon getPokemonActif() {
+        return pokemon[indexActif];
     }
 }

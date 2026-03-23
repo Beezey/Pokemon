@@ -81,6 +81,14 @@ public class Pokemon {
         return null;
     }
 
+    public Attaque[] getAttaques() {
+        return attaques;
+    }
+
+    public boolean estVivant() {
+        return pv > 0;
+    }
+
     public int attaquer(Attaque attaque, Pokemon adversaire) {
         int degats;
 

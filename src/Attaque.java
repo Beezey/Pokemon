@@ -13,4 +13,8 @@ public class Attaque {
         this.type = type;
         this.priorite = priorite;
     }
+
+    public String getNom() {
+        return nom;
+    }
 }
